@@ -1,7 +1,8 @@
 from random import randint
-print ("Массив:")
-a=[randint(0,100) for i in range (5)]
-print (a)
-n=int(5)
-s=sum(a)/n
-print("Среднее арифметическое",s)
+a=[ ]
+a=[randint (0,100) for x in range (100)]
+sum=0
+for x in a:
+    sum+=x
+    sred=sum//2
+print (sred)
